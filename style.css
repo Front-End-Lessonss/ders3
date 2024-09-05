@@ -1,0 +1,49 @@
+body{
+    background-color: rgba(113, 113, 241, 0.877);
+    color:rgb(31, 31, 31)  
+    /* hex kodlari */
+}
+
+/* selector; decleration--> property; value */
+
+/* reng deyismek ucun: color */
+/* arxa fon deyismek ucun : backround-color */
+
+
+/* yazi uzerinde dizaynlar */
+/* yazilarin setir uzre duzlendirilmesi:text-align */
+/* yazilarin olculerinin deyisdirilmesi: font-size */
+/* yazilarin qalinliginin deyisdirilmesi: font-weight */
+/* yazilara dekor elave edib silmek */
+/* text-shadow: yaziya arxadan kolge verir */
+h1{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 8px;
+    /* yazilarin herfleri arasindaki mesafe */
+   text-decoration:overline;
+   /* yazi sriftinin deyismesi: font-family */
+   font-family: "Playwrite CU", cursive;
+}
+.ilk{
+    color:rgb(169, 179, 60)
+}
+p.son{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 60px;
+    color:rgb(255, 0, 17)
+    /* setirlerimiz arasindaki mesafeni artirdi */
+}
+/* tagleri ferqlendirmek ucun class ve id lerden istifade olunur
+classlar . ile idler ise # isaresi ile ferqlendirilir */
+a{
+    text-decoration: none;
+    color:#fff
+}
+small{
+    text-transform:uppercase;
+    /* yazi herflerinin boyuk ve ya kicikle yazilmasi */
+}
+/* qeyd: basliq elementlerinin(h1-h6) qalinligi default olaraq 700; plerde 400 olur */
